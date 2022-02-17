@@ -1,0 +1,295 @@
+/* -------------------
+  全体構造
+------------------- */
+body {
+  background-color: #fff;
+  color: #000;
+  font-size: 16px;
+  font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro','メイリオ', 'Meiryo', '游ゴシック', 'Yu Gothic', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+.content{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1100px;
+}
+.center{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+/* -------------------
+  ヘッダー
+------------------- */
+header{
+  background-color: #e7e1d3;
+  height: 150px;
+}
+header .inner{
+  display: flex;
+  justify-content: flex-end;
+  width: 1100px;
+  margin: 0 auto;
+}
+header h1{
+  margin: 20px 0 0 10px;
+}
+header .tel{
+  margin: 30px 20px 0 30px;
+}
+header .guide{
+  margin: 30px 20px 0 0;
+}
+.navi{
+  background-color: black;
+  height: 90px;
+  margin-bottom: 20px;
+}
+.navi ul{
+  /* margin-top: 20px;
+  margin-bottom: 20px; */
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto 20px auto;
+  width: 1100px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navi img{
+  padding-top: 20px;
+}
+/* .navi a{
+  height: 90px;
+  font-size: 20px;
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  line-height: 90px;
+} */
+
+/* -------------------
+  メイン
+------------------- */
+.image{
+  margin-bottom: 20px;
+}
+main{
+  width: 700px;
+  margin-bottom: 20px;
+}
+main h2{
+  font-size: 40px;
+  color: #a50000;
+  margin: 15px 0 10px 15px;
+}
+.gakka{
+  margin-bottom: 20px;
+  margin-left: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.gakka .right{
+  width: 360px;
+}
+.gakka h3{
+  font-size: 25px;
+  color: #000;
+  margin-bottom: 15px;
+}
+.gakka p{
+  margin-right: 20px;
+  line-height: 1.2;
+}
+main .info a{
+  text-decoration: none;
+}
+/* -------------------
+  サイド
+------------------- */
+aside{
+  width: 360px;
+}
+aside .list{
+  margin: 0 20px 20px 0;
+  border: 5px solid #a50000;
+}
+aside .list h2{
+  font-size: 30px;
+  color: #000;
+  margin: 20px 0 15px 20px;
+}
+aside .list ul{
+  list-style-type: none;
+  margin: 0 20px 20px 20px;
+}
+aside .list li{
+  margin-bottom: 20px;
+  line-height: 1.2;
+  border-bottom: 1px solid #000;
+}
+aside .list a{
+  text-decoration: none;
+}
+aside .banner {
+  margin-bottom: 20px;
+}
+aside .banner a{
+  padding-top: 20px;
+  display: block;
+}
+.comment{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.comment a{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+/* -------------------
+  フッター
+------------------- */
+footer{
+  background-color: #a50000;
+  height: 300px;
+  margin: 0 auto;
+}
+footer .logo{
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 35px;
+  color: #fff;
+  margin: 0 auto;
+  padding: 20px 20px 20px 20px;
+}
+footer .footer{
+  text-align: center;
+}
+footer .font{
+  font-size: 30px;
+  color: #D4DA2F;
+  padding: 0 10px 10px 10px;
+}
+footer address{
+  margin-bottom: 10px;
+  color: #fff;
+}
+footer p{
+  margin-bottom: 10px;
+}
+footer .copy p{
+  margin-bottom: 10px;
+}
+footer .memo p{
+  color: #fff;
+}
+/* -------------------
+  トップページ
+------------------- */
+#home main{
+  width: 700px;
+  border: 5px solid #a50000;
+}
+/* -------------------
+  学科紹介
+------------------- */
+#gakka main .biyo{
+  width: 680px;
+  border: 5px solid #a50000;
+  margin-bottom: 20px;
+}
+#gakka main .biyo .title{
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#gakka main .biyo .memo{
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  padding: 0 55px 10px 355px;
+}
+#gakka main .biyo h2{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+#gakka main .biyo .pic{
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  color: #000;
+  margin: 20px;
+}
+#gakka main .biyo .kamoku{
+  margin-bottom: 25px;
+}
+#gakka main .beauty{
+  width: 680px;
+  border: 5px solid #a50000;
+  margin-bottom: 20px;
+}
+#gakka main .beauty .memo{
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  padding: 0 55px 10px 355px;
+}
+#gakka main .beauty h2{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+#gakka main .beauty .pic{
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  color: #000;
+  margin: 20px;
+}
+#gakka main .beauty .kamoku{
+  margin-bottom: 25px;
+}
+/* -------------------
+  キャンパスライフ
+------------------- */
+#campus main{
+  border: 5px solid #a50000;
+  margin-left: 20px;
+  width: 680px;
+  height: 681px;
+}
+#campus main .title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+#campus main .title h2{
+  font-size: 40px;
+  width: 330px;
+}
+#campus main .title p{
+  font-size: 16px;
+  width: 310px;
+  color: #000;
+  text-align: center;
+  margin-right: 25px;
+}
+#campus main .list{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#campus main .botan{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #e7e1d3;
+  width: 310px;
+  height: 170px;
+}
